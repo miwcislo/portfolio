@@ -1,0 +1,130 @@
+@media all and (max-width: 991.98px) {
+    #main-nav {
+        text-align: right;
+    }
+
+    #main-nav .navbar-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(128, 212, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: rgba(128, 212, 255, 1);
+        margin: 0px 1.3em;
+    }
+
+    #main-nav .collapse .navbar-nav li a:before {
+        height: 2px;
+        width: 0%;
+        content: "";
+        background-color: #80d4ff;
+    }
+
+    .nav-link {
+        display: inline-block;
+    }
+
+    #about figure {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    #about figure img {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    #contact .contact-inner form input[type="submit"] {
+        width: 30%;
+    }
+}
+
+
+
+@media all and (max-width: 767.98px) {
+
+    #portfolio .portfolio-item .mask .border .content h3 {
+        font-size: 1.1em;
+    }
+
+    #portfolio .portfolio-item .mask .border .content p {
+        font-size: 1em;
+    }
+
+    #portfolio .portfolio-item {
+        margin: 20px 0;
+    }
+
+    .fa-2x {
+        font-size: 1em;
+    }
+
+    #contact .contact-inner {
+        text-align: center;
+    }
+
+    #contact .contact-inner form input[type="submit"] {
+        float: none;
+    }
+
+    .social-icons {
+        margin: 25px 0;
+    }
+
+}
+
+@media all and (max-width: 575.98px) {
+
+    section {
+        padding: 30px;
+    }
+
+    .xs-nowrap {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    #skills .skills-icons .img-jquery {
+        height: 30%;
+    }
+
+    #portfolio .portfolio-item .mask .border .content p {
+        font-size: 0.8em;
+    }
+
+}
+
+@media all and (max-width: 430px) {
+
+    section {
+        padding: 30px 10px;
+    }
+
+    #main-header .header-inner h1 {
+        font-size: 40px;
+    }
+
+    #main-header .header-inner h2 {
+        font-size: 30px;
+    }
+
+    #skills .fab {
+        font-size: 35px;
+    }
+
+    #skills .skills-icons .img-bootstrap {
+        height: 35px;
+    }
+
+    #skills .skills-icons .img-jquery {
+        height: 20%;
+    }
+
+    .icon-caption {
+        font-size: 0.6rem;
+    }
+
+}
